@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "880d5697-9e72-4d65-a013-f51c8584f091")
 	(paper "A4")
+	(title_block
+		(title "Ethernet")
+		(date "2025-12-22")
+		(rev "0.0.1")
+		(company "KN NaMi")
+	)
 	(lib_symbols
 		(symbol "Connector:RJ45_LED_Shielded"
 			(pin_names

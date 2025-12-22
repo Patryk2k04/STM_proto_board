@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "bc16bad0-d115-4918-86df-63b2057ccdfd")
 	(paper "A3")
+	(title_block
+		(title "uC")
+		(date "2025-12-22")
+		(rev "0.0.1")
+		(company "KN NaMi")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x12_Odd_Even"
 			(pin_names

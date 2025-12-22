@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d5dae2ce-b583-4c36-8f0d-89e433540023")
 	(paper "A4")
+	(title_block
+		(title "power supplay")
+		(date "2025-12-22")
+		(rev "0.0.1")
+		(company "KN NaMi")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -6895,6 +6901,199 @@
 				(type solid)
 			)
 		)
+		(column_widths 41.275 27.305)
+		(row_heights 3.175 3.175 3.175 3.175 3.175)
+		(cells
+			(table_cell "Output Voltage"
+				(exclude_from_sim no)
+				(at 81.28 130.175 0)
+				(size 41.275 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0a5a5b24-4324-457d-aaa9-0cba09346d4e")
+			)
+			(table_cell "3.3"
+				(exclude_from_sim no)
+				(at 122.555 130.175 0)
+				(size 27.305 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "44e85f20-8d1d-4c5b-a455-7999f80f1eff")
+			)
+			(table_cell "Load curren specification for REF30xx"
+				(exclude_from_sim no)
+				(at 81.28 133.35 0)
+				(size 41.275 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8970e16f-bd9e-46d0-91d2-3d428e896e13")
+			)
+			(table_cell "max 25 mA"
+				(exclude_from_sim no)
+				(at 122.555 133.35 0)
+				(size 27.305 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6f19ebc2-fbf1-471a-a89f-8de9f1401d20")
+			)
+			(table_cell "Load curren specification for REF30xxE"
+				(exclude_from_sim no)
+				(at 81.28 136.525 0)
+				(size 41.275 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dcc2a555-d15e-4d2b-9890-7bbc7a19446b")
+			)
+			(table_cell "min -10 mA max 10 mA"
+				(exclude_from_sim no)
+				(at 122.555 136.525 0)
+				(size 27.305 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1915e41b-5b59-4ef7-945a-a39de19b43e0")
+			)
+			(table_cell "Initial accuracy for REF30xx"
+				(exclude_from_sim no)
+				(at 81.28 139.7 0)
+				(size 41.275 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf77b7a6-db12-411d-b5b1-4250af251907")
+			)
+			(table_cell "0,2%"
+				(exclude_from_sim no)
+				(at 122.555 139.7 0)
+				(size 27.305 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "635532c3-7d18-4106-9989-12ece95c2054")
+			)
+			(table_cell "Initial accuracy for REF30xxE"
+				(exclude_from_sim no)
+				(at 81.28 142.875 0)
+				(size 41.275 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f9c3b9c2-efec-4523-80f0-4badc35be1e1")
+			)
+			(table_cell "0,1%"
+				(exclude_from_sim no)
+				(at 122.555 142.875 0)
+				(size 27.305 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6ce25cc4-89be-4036-84a5-fca9dafb6f2d")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
 		(column_widths 8.89 12.7)
 		(row_heights 3.175 3.175 3.175 3.175 3.175 3.175)
 		(cells
@@ -7101,199 +7300,6 @@
 					(justify left top)
 				)
 				(uuid "a8e65c9a-d5b8-4f79-8d8f-6920f20abeab")
-			)
-		)
-	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 41.275 27.305)
-		(row_heights 3.175 3.175 3.175 3.175 3.175)
-		(cells
-			(table_cell "Output Voltage"
-				(exclude_from_sim no)
-				(at 81.28 130.175 0)
-				(size 41.275 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0a5a5b24-4324-457d-aaa9-0cba09346d4e")
-			)
-			(table_cell "3.3"
-				(exclude_from_sim no)
-				(at 122.555 130.175 0)
-				(size 27.305 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "44e85f20-8d1d-4c5b-a455-7999f80f1eff")
-			)
-			(table_cell "Load curren specification for REF30xx"
-				(exclude_from_sim no)
-				(at 81.28 133.35 0)
-				(size 41.275 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "8970e16f-bd9e-46d0-91d2-3d428e896e13")
-			)
-			(table_cell "max 25 mA"
-				(exclude_from_sim no)
-				(at 122.555 133.35 0)
-				(size 27.305 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "6f19ebc2-fbf1-471a-a89f-8de9f1401d20")
-			)
-			(table_cell "Load curren specification for REF30xxE"
-				(exclude_from_sim no)
-				(at 81.28 136.525 0)
-				(size 41.275 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "dcc2a555-d15e-4d2b-9890-7bbc7a19446b")
-			)
-			(table_cell "min -10 mA max 10 mA"
-				(exclude_from_sim no)
-				(at 122.555 136.525 0)
-				(size 27.305 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1915e41b-5b59-4ef7-945a-a39de19b43e0")
-			)
-			(table_cell "Initial accuracy for REF30xx"
-				(exclude_from_sim no)
-				(at 81.28 139.7 0)
-				(size 41.275 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "bf77b7a6-db12-411d-b5b1-4250af251907")
-			)
-			(table_cell "0,2%"
-				(exclude_from_sim no)
-				(at 122.555 139.7 0)
-				(size 27.305 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "635532c3-7d18-4106-9989-12ece95c2054")
-			)
-			(table_cell "Initial accuracy for REF30xxE"
-				(exclude_from_sim no)
-				(at 81.28 142.875 0)
-				(size 41.275 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f9c3b9c2-efec-4523-80f0-4badc35be1e1")
-			)
-			(table_cell "0,1%"
-				(exclude_from_sim no)
-				(at 122.555 142.875 0)
-				(size 27.305 3.175)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "6ce25cc4-89be-4036-84a5-fca9dafb6f2d")
 			)
 		)
 	)
