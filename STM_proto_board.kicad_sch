@@ -1,0 +1,202 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "62bd2484-1963-4ffc-9701-8d7a398967a6")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "- wzmacniacze odwracające, nieodwracające, różnicowe,\n- pomiar prądu,\n- filtry aktywne,\n- wzmacniasz operacyjny robiący konwersję z 0V - 3.3V na -12V - 12V,\n- wzmacniacz w drugą stronę,\n- bufor na wyjściu,"
+		(exclude_from_sim no)
+		(at 157.48 75.565 0)
+		(size 85.09 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e3bba8e3-05df-4ca3-a5d8-a48a04131648")
+	)
+	(sheet
+		(at 15.875 130.81)
+		(size 56.515 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e8eca17-1e9c-4aea-a0d3-080214f76c45")
+		(property "Sheetname" "Ethernet"
+			(at 15.875 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 15.875 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM_proto_board"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.185 130.81)
+		(size 51.435 50.165)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b3971f1-074d-4a54-aad8-675fd6343665")
+		(property "Sheetname" "The rest of the things"
+			(at 83.185 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "The rest of the things.kicad_sch"
+			(at 83.185 181.5596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM_proto_board"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.875 17.78)
+		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "761fb369-d645-4a01-9946-156896f44b8e")
+		(property "Sheetname" "Power supplay"
+			(at 15.875 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power supplay.kicad_sch"
+			(at 15.875 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM_proto_board"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 61.595)
+		(size 54.61 59.055)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a05abd4-96ba-4133-bf72-ed07b49324a7")
+		(property "Sheetname" "uC"
+			(at 15.24 60.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uC.kicad_sch"
+			(at 15.24 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM_proto_board"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
