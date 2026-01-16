@@ -1,0 +1,502 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "62bd2484-1963-4ffc-9701-8d7a398967a6")
+	(paper "A4")
+	(title_block
+		(title "main schematic")
+		(date "2026-01-13")
+		(rev "0.0.2")
+		(company "KN NaMi")
+	)
+	(lib_symbols)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 47.625 20.955 0)
+		(size 155.575 135.255)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fdb8afd2-35cc-4564-8cf9-ca27295e2724")
+	)
+	(sheet
+		(at 142.875 91.44)
+		(size 15.875 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1113a9d9-ab3a-420d-9682-f92223865b3c")
+		(property "Sheetname" "Encoder"
+			(at 142.875 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Encoder.kicad_sch"
+			(at 142.875 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 114.3)
+		(size 19.685 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17df3c86-b13a-4549-b390-88f5f5b1b216")
+		(property "Sheetname" "Logic converter"
+			(at 115.57 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic converter.kicad_sch"
+			(at 115.57 130.7596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.815 28.575)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "386e1fbc-1b3c-418f-86e1-c29f595f86a3")
+		(property "Sheetname" "Connectors"
+			(at 170.815 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 170.815 44.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 60.96)
+		(size 54.61 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e8eca17-1e9c-4aea-a0d3-080214f76c45")
+		(property "Sheetname" "Ethernet"
+			(at 52.705 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 52.705 83.7696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.745 136.525)
+		(size 35.56 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72faac06-b1ee-43a5-8e9e-dd8a20f40591")
+		(property "Sheetname" "Buttons"
+			(at 118.745 135.8134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buttons.kicad_sch"
+			(at 118.745 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 28.575)
+		(size 86.36 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "761fb369-d645-4a01-9946-156896f44b8e")
+		(property "Sheetname" "Power supplay"
+			(at 52.705 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power supplay.kicad_sch"
+			(at 52.705 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 91.44)
+		(size 54.61 59.055)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a05abd4-96ba-4133-bf72-ed07b49324a7")
+		(property "Sheetname" "uC"
+			(at 52.705 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uC.kicad_sch"
+			(at 52.705 151.0796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 63.5)
+		(size 15.875 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cec72346-5d98-4748-a417-e06b4de8bc6b")
+		(property "Sheetname" "THT potentiometers"
+			(at 142.24 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "THT potentiometers.kicad_sch"
+			(at 142.24 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 91.44)
+		(size 19.685 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0aa109d-3bf7-4363-862a-efba1cdf129f")
+		(property "Sheetname" "LED"
+			(at 115.57 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 115.57 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 50.8)
+		(size 19.685 85.725)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1979aee-d658-4931-9ff3-d640faf569c8")
+		(property "Sheetname" "BNC"
+			(at 179.07 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BNC.kicad_sch"
+			(at 179.07 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.875 114.3)
+		(size 15.875 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5c502c5-cf7d-4e64-a42b-0cc3ca3af031")
+		(property "Sheetname" "Filters"
+			(at 142.875 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filters.kicad_sch"
+			(at 142.875 130.7596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NaMi_DevBoard"
+				(path "/62bd2484-1963-4ffc-9701-8d7a398967a6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
